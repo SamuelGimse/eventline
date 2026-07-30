@@ -1,1 +1,37 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Eventline</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+<div class="page">
+  <header class="header">
+    <div class="header-left">
+      <div class="brand-row">
+        <img class="logo" src="assets/tabler_chart-dots-3-filled.svg" alt="Eventline" />
+        <div class="brand">eventline</div>
+      </div>
+      <div class="tagline">World events. Mapped to stocks.</div>
+    </div>
+
+    <div class="header-right">
+      <div id="meta" class="meta"></div>
+    </div>
+  </header>
+
+  <div id="boot" class="boot">
+    <div class="boot-title">Analyzing world events...</div>
+    <div id="bootLog" class="boot-log"></div>
+  </div>
+
+  <div id="status" class="status"></div>
+  <div id="list"></div>
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
